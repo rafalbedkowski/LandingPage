@@ -97,14 +97,15 @@ body {
   .footprint-container {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
 
   .footprint,
   .save-energy {
-    height: 50px;
+    height: 30px;
     font-weight: 50px;
+    margin: 20px 10px;
   }
 
   .contact {
@@ -132,7 +133,7 @@ body {
   .description-content > h2 {
     font-size: 16px;
     text-align: right;
-    /* color: #02445e; */
+    color: #02445e;
   }
 
   .description-content.left-title > h2 {
@@ -181,6 +182,10 @@ body {
     margin-top: 80px;
   }
 
+  li > h2 {
+    font-size: 30px;
+  }
+
   .logo-tms-container {
     display: flex;
     align-items: center;
@@ -194,17 +199,6 @@ body {
     -moz-box-shadow: 0px 11px 13px -13px rgba(66, 68, 90, 1);
     box-shadow: 0px 11px 13px -13px rgba(66, 68, 90, 1);
   }
-
-  /* .logo-tms-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: yellowgreen;
-    width: 100%;
-    height: 45px;
-    display: flex;
-    align-items: center;
-  } */
 
   .logo-tms-container > a > img {
     width: 100px;
@@ -224,10 +218,11 @@ body {
   }
 
   .header {
-    height: 100%;
-  }
-
-  .header-title {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .calltoaction {
@@ -427,6 +422,10 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header-title > h1 {
+  color: #fac31f;
 }
 
 .calltoaction {
