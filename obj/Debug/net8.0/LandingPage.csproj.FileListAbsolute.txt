@@ -31,3 +31,4 @@ C:\Users\rafal\source\repos\private\LandingPage\obj\Debug\net8.0\refint\LandingP
 C:\Users\rafal\source\repos\private\LandingPage\obj\Debug\net8.0\LandingPage.pdb
 C:\Users\rafal\source\repos\private\LandingPage\obj\Debug\net8.0\LandingPage.genruntimeconfig.cache
 C:\Users\rafal\source\repos\private\LandingPage\obj\Debug\net8.0\ref\LandingPage.dll
+C:\Users\rafal\source\repos\private\LandingPage\obj\Debug\net8.0\LandingPage.sourcelink.json
