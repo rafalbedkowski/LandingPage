@@ -43,7 +43,7 @@ body {
     color: #ff6021;
   }
 
-  .logo-tms-container > a > img {
+  .logo-tms-container>a>img {
     width: 100;
     height: 25px;
     margin-left: 10px;
@@ -64,10 +64,11 @@ body {
   .header-title h1 {
     font-size: 20px;
     margin-bottom: 30px;
-    color: #fac31f;
+    /* color: #fac31f; */
+    color: #FFF;
   }
 
-  li > h2 {
+  li>h2 {
     font-size: 14px;
     /* color: #fee117; */
   }
@@ -130,13 +131,13 @@ body {
     margin-bottom: 15px;
   }
 
-  .description-content > h2 {
+  .description-content>h2 {
     font-size: 16px;
     text-align: right;
     color: #02445e;
   }
 
-  .description-content.left-title > h2 {
+  .description-content.left-title>h2 {
     text-align: left;
   }
 
@@ -150,14 +151,14 @@ body {
     color: #02445e;
   }
 
-  .details-description > img {
+  .details-description>img {
     width: 80px;
     height: 60px;
     margin: 0 10px 5px 0;
     border-radius: 10px;
   }
 
-  .details-description.right-img > img {
+  .details-description.right-img>img {
     margin: 0 0 5px 10px;
   }
 
@@ -170,7 +171,7 @@ body {
     min-height: 100vh;
   }
 
-  .contact-section > h1 {
+  .contact-section>h1 {
     text-align: center;
     color: #fac31f;
     font-size: 24px;
@@ -182,7 +183,7 @@ body {
     margin-top: 80px;
   }
 
-  li > h2 {
+  li>h2 {
     font-size: 30px;
   }
 
@@ -200,12 +201,12 @@ body {
     box-shadow: 0px 11px 13px -13px rgba(66, 68, 90, 1);
   }
 
-  .logo-tms-container > a > img {
+  .logo-tms-container>a>img {
     width: 100px;
     height: auto;
   }
 
-  .logo-tms-container > h1 {
+  .logo-tms-container>h1 {
     font-size: 30px;
     color: #ff6021;
   }
@@ -264,7 +265,8 @@ body {
     justify-content: space-between;
     margin: 30px 0;
   }
-  .footprint-container > img {
+
+  .footprint-container>img {
     height: 70px;
     margin: 0 30px 0 30px;
   }
@@ -293,11 +295,11 @@ body {
     padding: 0 200px;
     flex-direction: column;
     justify-content: start;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     max-width: 1000px;
   }
 
-  .details-container > h2 {
+  .details-container>h2 {
     font-size: 30px;
     text-align: center;
     color: #02445e;
@@ -313,25 +315,31 @@ body {
     color: #02445e;
   }
 
-  .details-description > img {
+  .details-description>img {
     width: 300px;
     height: auto;
     margin: 0 10px 5px 0;
     border-radius: 10px;
   }
 
-  .details-description.right-img > img {
+  .details-description.right-img>img {
     margin: 0 0 5px 10px;
   }
 
-  .description-content > h2 {
+  .description-content>h2 {
     text-align: right;
     color: #02445e;
     font-size: 30px;
     font-weight: 900;
     margin: 0;
+    margin-bottom: 30px;
   }
-  .description-content.left-title > h2 {
+
+  .description-content>span {
+    line-height: 40px;
+  }
+
+  .description-content.left-title>h2 {
     text-align: left;
   }
 
@@ -344,7 +352,7 @@ body {
     min-height: 100vh;
   }
 
-  .contact-section > h1 {
+  .contact-section>h1 {
     text-align: center;
     color: #fac31f;
     font-size: 36px;
@@ -361,6 +369,11 @@ section {
   max-width: 100%;
   min-height: 100vh;
   background-color: #02445e;
+  background-color:transparent;
+			background-image:url("./images/backgroud.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
 }
 
 h1 {
@@ -424,8 +437,9 @@ input:focus {
   justify-content: center;
 }
 
-.header-title > h1 {
-  color: #fac31f;
+.header-title>h1 {
+  /* color: #fac31f; */
+  color: #FFF;
 }
 
 .calltoaction {
@@ -438,7 +452,7 @@ input:focus {
   justify-content: center;
 }
 
-.calltoaction > img {
+.calltoaction>img {
   margin-right: 20px;
 }
 
@@ -458,7 +472,7 @@ input:focus {
   align-self: self-end;
 }
 
-.submit-btn > img {
+.submit-btn>img {
   margin-right: 10px;
 }
 
@@ -488,7 +502,7 @@ label input {
   display: none;
 }
 
-label input + span:before {
+label input+span:before {
   content: "";
   display: inline-block;
   width: 20px;
@@ -506,14 +520,14 @@ label input + span:before {
   left: 30px;
 }
 
-label input:checked + span:before {
+label input:checked+span:before {
   content: "✓";
   background: #ff6021;
   text-indent: 4px;
   color: #fff;
 }
 
-label:hover input + span:before {
+label:hover input+span:before {
   background: #ff6021;
 }
 
